@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipe';
+  public msg:string="welcome to angular";
+  public price:number=32555;
+  public birthday:Date=new Date();
+  
+
 }
